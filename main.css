@@ -28,16 +28,21 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
+  .column-layout {
+    background-color: #fff;
+    margin: 0px auto 0 auto;
+    padding-left: 5%;
+    display: flex;
   }
+  .column {
+    flex: 2;
+  }
+  
   .column1 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
+    flex: 1;
+    margin-top: 5%;
+    margin-right: 15%;
+    font-size: 30px;
   }
   .row:after {
     content: "";
